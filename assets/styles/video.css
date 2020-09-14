@@ -1,0 +1,36 @@
+.video {
+	position: relative;
+	right: -10%;
+}
+
+.video__img {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	max-width: 80%;
+}
+
+.video__play {
+	position: absolute;
+	top: 11.5%;
+	left: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 65px;
+	height: 65px;
+	background-color: var(--c-white);
+	z-index: 18;
+}
+
+.video__play:before {
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 9.85px 0 9.85px 19.7px;
+	border-color: transparent transparent transparent var(--c-black);
+}

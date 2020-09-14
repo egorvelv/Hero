@@ -1,0 +1,7 @@
+.partner__link {
+	margin-right: 25px;
+}
+
+.partner__link:last-child {
+	margin-right: 0px;
+}

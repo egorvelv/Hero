@@ -1,0 +1,17 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}
+
+.nav__link {
+	color: var(--c-white);
+	opacity: .5;
+	transition: .5s;
+	font-size: 18px;
+}
+.nav__link:hover {
+	opacity: 1;
+	font-size: 19px;
+}
